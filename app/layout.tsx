@@ -25,7 +25,7 @@ export default function RootLayout({
       <Head>
         <link rel="shortcut icon" href="/images/favicon.ico" />
       </Head>
-      <body className="2xl:px-[6rem] 2xl:py-6 lg:px-[1.875rem] lg:py-5 font-['DM-Sans']">
+      <body className="2xl:max-w-[1380px] xl:max-w-[1280px] mx-auto px-8 lg:py-5 py-4 font-['DM-Sans']">
         <Navbar/>
         <div>
           <Header/>
