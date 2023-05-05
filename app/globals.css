@@ -9,4 +9,23 @@
   .mobile-menu {
     display: none;
   }
+  .mobile-menu-open {
+    display: block;
+    position: absolute;
+    flex-direction: column;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    gap: 0;
+    background-color: #fff;
+    padding: 20px 30px;
+    box-shadow: 0 6px 13px rgba(38, 78, 118, 0.1);
+    transition: all 0.3s ease-in-out 0s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .open {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
 }
