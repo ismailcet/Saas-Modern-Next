@@ -25,9 +25,9 @@ export default function RootLayout({
       <Head>
         <link rel="shortcut icon" href="/images/favicon.ico" />
       </Head>
-      <body className="2xl:max-w-[1380px] xl:max-w-[1280px] mx-auto px-8 lg:py-5 py-4 font-['DM-Sans']">
+      <body className="font-['DM-Sans']">
         <Navbar/>
-        <div>
+        <main className='2xl:max-w-[1380px] xl:max-w-[1280px] lg:max-w-[1080px] mx-auto px-8 lg:py-5 py-4 h-[200vh]'>
           <Header/>
           <Customer/>
           <FeaturedSpace/>
@@ -35,7 +35,7 @@ export default function RootLayout({
           <Pricing/>
           <Customers/>
           <Blog/>
-        </div>
+        </main>
         <Footer/>
       </body>
     </html>

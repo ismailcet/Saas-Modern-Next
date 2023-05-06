@@ -13,6 +13,9 @@ module.exports = {
         "second-color": "#8D448B",
         "disabled-color": "#343d48",
       },
+      backgroundImage: {
+        "header-image": "url('/images/banner-bg.jpg')",
+      },
     },
   },
   plugins: [],
