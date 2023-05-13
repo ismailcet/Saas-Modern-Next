@@ -33,7 +33,7 @@ const Header = () => {
           <div className='w-full relative'>
             <BiMap className='absolute text-4xl font-normal text-disabled-color top-1/4 left-3'/>
             <label htmlFor="country" className='absolute top-2 left-[4.4rem]'>Find Workspace</label>
-            <select name="country" id="country" className='min-h-[75px] border-second-color border-2 rounded-[5px] px-16 pt-4 font-bold'>
+            <select name="country" id="country" className='min-h-[75px] border-second-color border-2 rounded-[5px] px-16 pt-4 font-bold w-full'>
               {city.map((c)=>(
                 <option key={c.id}>{c.name}</option>
               ))}
