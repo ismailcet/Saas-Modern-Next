@@ -93,4 +93,27 @@
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
   }
+  .workspace-img:before{
+    content: '';
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(1.15deg,#020718 0.72%,rgba(255,255,255,0) 41.15%);
+    left: 0;
+    top: 0;
+    border-radius: 0.5rem;
+    z-index: 2;
+  }
+  .workspace-img{
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .workspace-img img{
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .workspace-img:hover img{
+    transform: scale(1.2);
+    z-index: -1;
+  }
 }
